@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.thyro.framework.web.safety.SignAutoConfig,\
+  com.thyro.framework.web.safety.UnrepeatableAutoConfig
+
