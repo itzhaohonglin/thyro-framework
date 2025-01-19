@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: thyro-demo-redis
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+    database: 0
+    timeout: 5000
+    redisson:
+      connection-minimum-idle-size: 1
+
+  lock:
+    error-msg: "'等待超过'+#waitTime+'秒，系统繁忙，请稍后再试。'"
+thyro:
+  base-package: com.thyro.demo.redis.controller
+  web:
+    admin-api:
+      controller:
+      prefix:
+    app-api:
+      controller:
+      prefix:

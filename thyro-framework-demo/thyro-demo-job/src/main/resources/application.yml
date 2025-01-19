@@ -1,0 +1,18 @@
+# 定时任务配置
+thyro:
+  job:
+    admin-addresses: http://127.0.0.1:9090/xxl-job-admin/
+    access-token: default_token
+    app-name: ${spring.application.name}
+    address:
+    ip:
+    port: 9999
+    log-path: data/logs/job/${spring.application.name}
+    log-retention-days: 30
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+  application:
+    name: thyro-demo-job

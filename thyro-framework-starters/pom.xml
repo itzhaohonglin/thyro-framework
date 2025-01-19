@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.thyro.framework</groupId>
+        <artifactId>thyro-framework</artifactId>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>thyro-framework-starters</artifactId>
+    <packaging>pom</packaging>
+
+    <name>thyro-framework-starters</name>
+    <modules>
+        <module>thyro-framework-starter-mysql</module>
+        <module>thyro-framework-starter-redis</module>
+        <module>thyro-framework-starter-feign</module>
+        <module>thyro-framework-starter-web</module>
+        <module>thyro-framework-starter-web-safety</module>
+        <module>thyro-framework-starter-web-tools</module>
+        <module>thyro-framework-starter-rocketmq</module>
+        <module>thyro-framework-starter-job</module>
+        <module>thyro-framework-starter-dubbo</module>
+        <module>thyro-framework-starter-nacos</module>
+    </modules>
+
+</project>
